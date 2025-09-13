@@ -1,0 +1,81 @@
+body {
+        margin: 0;
+            font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                    color: #222;
+                        line-height: 1.6;
+                        }
+
+                        header {
+                            background-color: #3a7c3a;
+                                color: white;
+                                    text-align: center;
+                                        padding: 1rem;
+                                            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                                            }
+
+                                            header h1 {
+                                                margin: 0;
+                                                    font-size: 2rem;
+                                                    }
+
+                                                    header p {
+                                                        max-width: 800px;
+                                                            margin: 0.5rem auto;
+                                                                font-size: 1rem;
+                                                                }
+
+                                                                .blocks {
+                                                                    display: grid;
+                                                                        gap: 1rem;
+                                                                            padding: 1rem;
+                                                                                max-width: 1200px;
+                                                                                    margin: auto;
+                                                                                    }
+
+                                                                                    .block {
+                                                                                        background: white;
+                                                                                            padding: 1rem;
+                                                                                                border-radius: 8px;
+                                                                                                    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+                                                                                                    }
+
+                                                                                                    .block b {
+                                                                                                        font-size: 1.1rem;
+                                                                                                            color: #3a7c3a;
+                                                                                                            }
+
+                                                                                                            section {
+                                                                                                                background: #ffffff;
+                                                                                                                    max-width: 800px;
+                                                                                                                        margin: 1rem auto;
+                                                                                                                            padding: 1rem;
+                                                                                                                                border-radius: 8px;
+                                                                                                                                    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+                                                                                                                                    }
+
+                                                                                                                                    section h2 {
+                                                                                                                                        color: #3a7c3a;
+                                                                                                                                            text-align: center;
+                                                                                                                                                margin: 0.5rem 0;
+                                                                                                                                                }
+
+                                                                                                                                                section ul {
+                                                                                                                                                    list-style-type: disc;
+                                                                                                                                                        padding-left: 1.2rem;
+                                                                                                                                                            margin: 0.5rem 0;
+                                                                                                                                                            }
+
+                                                                                                                                                            section li {
+                                                                                                                                                                margin: 0.3rem 0;
+                                                                                                                                                                }
+
+                                                                                                                                                                footer {
+                                                                                                                                                                    background-color: #333;
+                                                                                                                                                                        color: #fff;
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                                padding: 0.8rem;
+                                                                                                                                                                                    font-size: 0.9rem;
+                                                                                                                                                                                        margin-top: 1rem;
+                                                                                                                                                                                        }
+}
